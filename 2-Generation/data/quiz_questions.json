@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which principle ensures data can be used across multiple systems without rework?",
+      "options": ["Available", "Reusable", "Accessible", "Scalable"],
+      "correct_index": 1,
+      "explanation": "Reusable means data collected once can serve multiple purposes - critical for efficiency.",
+      "difficulty": "medium",
+      "topic": "8_principles"
+    },
+    {
+      "id": 2,
+      "question": "In a gene therapy batch release decision, what data maturity level is most appropriate?",
+      "options": ["Data Aware", "Data Informed", "Data Driven", "None"],
+      "correct_index": 1,
+      "explanation": "Data Informed integrates multiple data sources with expert consensus - balances data with domain knowledge.",
+      "difficulty": "hard",
+      "topic": "maturity_model"
+    },
+    {
+      "id": 3,
+      "question": "What is the primary difference between Taxonomy and Ontology?",
+      "options": [
+        "Taxonomy is for data, Ontology is for processes",
+        "Taxonomy names things, Ontology defines by attributes",
+        "Taxonomy is old, Ontology is new",
+        "No difference"
+      ],
+      "correct_index": 1,
+      "explanation": "Taxonomy names/classifies, Ontology defines by attributes and relationships.",
+      "difficulty": "medium",
+      "topic": "taxonomy"
+    },
+    {
+      "id": 4,
+      "question": "Which data quality risk metric measures 'optimizing wrong things due to measurement bias'?",
+      "options": ["Counter-Serendipity", "Perverse Feedback", "Hyper-Focus", "Skill Erosion"],
+      "correct_index": 2,
+      "explanation": "Hyper-Focus = optimizing measured metrics while missing critical unmeasured factors.",
+      "difficulty": "hard",
+      "topic": "data_quality"
+    },
+    {
+      "id": 5,
+      "question": "What is the correct order of the 6 data foundation processes?",
+      "options": [
+        "Generation → Collection → Governance → Analysis",
+        "Governance → Generation → Collection → Aggregation → Analysis → Application",
+        "Collection → Governance → Analysis → Application",
+        "Analysis → Application → Governance"
+      ],
+      "correct_index": 1,
+      "explanation": "Governance comes FIRST: 1) Governance 2) Generation 3) Collection 4) Aggregation 5) Analysis 6) Application",
+      "difficulty": "medium",
+      "topic": "data_processes"
+    },
+    {
+      "id": 6,
+      "question": "In lean manufacturing, 'Overproduction' waste maps to which data problem?",
+      "options": [
+        "Data collection without purpose",
+        "Data quality defects",
+        "Slow data access",
+        "Inconsistent definitions"
+      ],
+      "correct_index": 0,
+      "explanation": "Overproduction = making more than needed. In data = collecting without clear business purpose.",
+      "difficulty": "easy",
+      "topic": "lean_integration"
+    },
+    {
+      "id": 7,
+      "question": "What does 'Counter-Serendipity' risk measure?",
+      "options": [
+        "Missing unexpected discoveries due to over-automation",
+        "Data becoming obsolete quickly",
+        "Teams not sharing data",
+        "Storage costs exceeding budget"
+      ],
+      "correct_index": 0,
+      "explanation": "Counter-Serendipity = loss of unexpected insights when automation removes human review.",
+      "difficulty": "hard",
+      "topic": "data_quality"
+    },
+    {
+      "id": 8,
+      "question": "Which business optimization does 'reducing batch cycle time' primarily impact?",
+      "options": ["Revenue", "Expenses", "Product Quality", "Employee Retention"],
+      "correct_index": 1,
+      "explanation": "Cycle time reduction primarily impacts Expenses (operational efficiency and throughput).",
+      "difficulty": "medium",
+      "topic": "business_optimization"
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of the 'Three Levels of Design' framework?",
+      "options": [
+        "Organize teams by skill level",
+        "Connect strategy through standards to tools",
+        "Describe project sizes",
+        "Define storage tiers"
+      ],
+      "correct_index": 1,
+      "explanation": "3 Levels: Conceptual (strategy) → Business (standards/KPIs) → Technical (tools/implementation).",
+      "difficulty": "medium",
+      "topic": "user_impact"
+    },
+    {
+      "id": 10,
+      "question": "Why is 'Data Driven' maturity NOT always the best choice?",
+      "options": [
+        "Too expensive",
+        "Some decisions require human judgment for safety/ethics",
+        "Technology doesn't exist",
+        "Violates regulations"
+      ],
+      "correct_index": 1,
+      "explanation": "Data Driven inappropriate when safety/ethics require human oversight and judgment.",
+      "difficulty": "hard",
+      "topic": "maturity_model"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "principles": [
+    {
+      "name": "Available",
+      "icon": "✅",
+      "definition": "Data must exist and be accessible when needed, where needed.",
+      "lean_connection": "Just-In-Time inventory - data at point of decision without delay",
+      "example": "Real-time cell viability data for downstream process adjustments."
+    },
+    {
+      "name": "Accessible",
+      "icon": "🔓",
+      "definition": "Users can retrieve data without unnecessary barriers.",
+      "lean_connection": "Removes motion waste - no unnecessary steps to find information",
+      "example": "QC analysts directly query historical batch data for trending."
+    },
+    {
+      "name": "Consistent",
+      "icon": "🔄",
+      "definition": "Data follows standard definitions across organization.",
+      "lean_connection": "Standardized work - everyone follows same process.",
+      "example": "Viral vector titer measured consistently across all sites (vg/mL)."
+    },
+    {
+      "name": "Secure",
+      "icon": "🔒",
+      "definition": "Data protected from unauthorized access or modification.",
+      "lean_connection": "Poka-yoke (error-proofing) - build in controls.",
+      "example": "Patient trial data encrypted with audit logs tracking access."
+    },
+    {
+      "name": "Reusable",
+      "icon": "♻️",
+      "definition": "Data collected once serves multiple purposes without rework.",
+      "lean_connection": "Eliminates overproduction waste - capture once, use many times.",
+      "example": "Process parameters feed real-time control, batch records, trending, regulatory reports."
+    },
+    {
+      "name": "Interoperable",
+      "icon": "🔗",
+      "definition": "Systems exchange information across platforms and contexts.",
+      "lean_connection": "Value stream mapping - data flows smoothly without handoff delays",
+      "example": "MES automatically sends data to QMS triggering inspection workflows."
+    },
+    {
+      "name": "Scalable",
+      "icon": "📈",
+      "definition": "Infrastructure handles growth in volume without redesign.",
+      "lean_connection": "Flexible manufacturing - adapts to demand changes.",
+      "example": "Architecture scales from 10 to 100 batches/month seamlessly."
+    },
+    {
+      "name": "Governed",
+      "icon": "⚖️",
+      "definition": "Clear ownership, accountability, and rules for data.",
+      "lean_connection": "Leader standard work - clear ownership and accountability.",
+      "example": "RACI matrix: Manufacturing owns generation, Quality owns acceptance criteria."
+    }
+  ]
+}

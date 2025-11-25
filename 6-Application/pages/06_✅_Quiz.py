@@ -2,17 +2,9 @@
 Interactive Quiz with Immediate Feedback
 """
 import streamlit as st
-import json
-from pathlib import Path
+from utils.data_loader import load_quiz
 
 st.set_page_config(page_title="Quiz", page_icon="✅", layout="wide")
-
-# Load quiz questions
-@st.cache_data
-def load_quiz():
-    file_path = Path(__file__).parent.parent.parent / "2-Generation/data/quiz_questions.json"
-    with open(file_path, 'r') as f:
-        return json.load(f)
 
 st.title("✅ Data Operating Theory Mastery Quiz")
 
